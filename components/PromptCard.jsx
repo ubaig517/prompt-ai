@@ -41,6 +41,7 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
 
         <div className="copy_btn" onClick={handleCopy}>
           <Image
+            alt="copy button icon"
             src={
               copied === post.prompt
                 ? "/assets/icons/tick.svg"
